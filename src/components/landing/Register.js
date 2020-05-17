@@ -1,5 +1,4 @@
 import React from "react";
-import img from "../../assets/img/landing/rocket.png";
 
 const Register = () => {
   return (
@@ -7,7 +6,7 @@ const Register = () => {
       {/* FORM BOX DECORATION */}
       <img
         className="form-box-decoration"
-        src={img}
+        src=''
         alt="rocket"
       />
       {/* /FORM BOX DECORATION */}
