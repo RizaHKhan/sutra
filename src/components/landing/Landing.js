@@ -1,4 +1,6 @@
 import React from "react";
+import Login from "./Login";
+import Register from './Register'
 
 const Landing = () => {
   return (
@@ -19,12 +21,11 @@ const Landing = () => {
         <h2 className="landing-info-pretitle">Welcome to</h2>
         {/* /LANDING INFO PRETITLE */}
         {/* LANDING INFO TITLE */}
-        <h1 className="landing-info-title">Vikinger</h1>
+        <h1 className="landing-info-title">Sutra</h1>
         {/* /LANDING INFO TITLE */}
         {/* LANDING INFO TEXT */}
         <p className="landing-info-text">
-          The next generation social network &amp; community! Connect with your
-          friends and play with our quests and badges gamification system!
+          This is some landing page text. Please feel free to ignore
         </p>
         {/* /LANDING INFO TEXT */}
         {/* TAB SWITCH */}
@@ -41,6 +42,12 @@ const Landing = () => {
         {/* /TAB SWITCH */}
       </div>
       {/* /LANDING INFO -- */}
+      {/* LANDING FORM */}
+      <div className="landing-form">
+        {/* FORM BOX */}
+        <Login />
+        <Register />
+      </div>
     </div>
   );
 };
