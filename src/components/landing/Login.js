@@ -141,16 +141,7 @@ class Login extends Component {
             {/* /ICON YOUTUBE */}
           </a>
           {/* /SOCIAL LINK */}
-          {/* SOCIAL LINK */}
-          <a className="social-link github" href="#">
-            {/* ICON YOUTUBE */}
-            <svg className="icon-youtube">
-              <use xlinkHref="#svg-youtube" />
-            </svg>
-            {/* /ICON YOUTUBE */}
-          </a>
-          {/* /SOCIAL LINK */}
-        </div>
+       </div>
         {/* /SOCIAL LINKS */}
       </div>
     );
