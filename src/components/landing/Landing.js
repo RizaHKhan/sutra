@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Login from "./Login";
 import Register from "./Register";
+import '../../scss/index.scss'
 
 class Landing extends Component {
   render() {
@@ -15,7 +16,7 @@ class Landing extends Component {
           <div className="logo">
             {/* ICON LOGO VIKINGER */}
             <svg className="icon-logo-vikinger">
-              <use xlinkHref="#svg-logo-vikinger" />
+              <use xlinkHref="#svg-artstation" />
             </svg>
             {/* /ICON LOGO VIKINGER */}
           </div>
@@ -24,7 +25,7 @@ class Landing extends Component {
           <h2 className="landing-info-pretitle">Welcome to</h2>
           {/* /LANDING INFO PRETITLE */}
           {/* LANDING INFO TITLE */}
-          <h1 className="landing-info-title">SUTRA</h1>
+          <h1 className="landing-info-title">SUTRA NETWORKS</h1>
           {/* /LANDING INFO TITLE */}
           {/* LANDING INFO TEXT */}
           <p className="landing-info-text">
@@ -45,6 +46,11 @@ class Landing extends Component {
               Register
             </p>
             {/* /TAB SWITCH BUTTON */}
+          </div>
+          <div className="tab-switch">
+            <p className="tab-switch-button">
+              Switch Network
+            </p>
           </div>
           {/* /TAB SWITCH */}
         </div>
