@@ -24,7 +24,7 @@ class Landing extends Component {
           <h2 className="landing-info-pretitle">Welcome to</h2>
           {/* /LANDING INFO PRETITLE */}
           {/* LANDING INFO TITLE */}
-          <h1 className="landing-info-title">Vikinger</h1>
+          <h1 className="landing-info-title">SUTRA</h1>
           {/* /LANDING INFO TITLE */}
           {/* LANDING INFO TEXT */}
           <p className="landing-info-text">
