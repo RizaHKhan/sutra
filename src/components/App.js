@@ -1,9 +1,11 @@
-import React from "react";
+import React, { Component } from "react";
 import Landing from "./landing/Landing";
 
-function App() {
-  // If not logged in, render the landing page.
-  return <Landing />;
+class App extends Component {
+ // If not logged in, render the landing page.
+  render() {
+    return <Landing />;
+  }
   // If logged in, render the dashboard
 }
 
